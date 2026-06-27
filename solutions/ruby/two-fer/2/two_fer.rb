@@ -1,0 +1,14 @@
+=begin
+Write your code for the 'Two Fer' exercise in this file. Make the tests in
+`two_fer_test.rb` pass.
+=end
+
+class TwoFer
+  def self.two_fer(name = "you")
+    return "One for #{name}, one for me."
+  end
+  # def self.two_fer(*name)
+  #   name = name.empty? ? "you" : name[0].to_s
+  #   return "One for #{name}, one for me."
+  # end
+end
